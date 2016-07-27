@@ -35,6 +35,22 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+/* white color of font */
+
+.text-vertical-center h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.text-vertical-center h5 {
+    color: white;
+    font-size: 150%;
+
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -162,6 +178,19 @@ hr.small {
     width: 100%;
     height: 100%;
     background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.joy_header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/portfolio_joy/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
