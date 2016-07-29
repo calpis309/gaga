@@ -245,7 +245,38 @@ hr.small {
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+    -webkit-filter: brightness(0.3);
+}
+
+.showDiscription {
+    bottom: 80px;
+    position: absolute;
+    left: 30%;
+    display: none;
+}
+
+.divider{
+    position: absolute;
+    width:20px;
+    height: 3px;
+    background: #f9ad81;
+    left: 45%;
+    top: 30%;
+}
+
+span{
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Call to Action */
